@@ -1,0 +1,131 @@
+"""Q1"""
+while True:
+    try:
+        A = int(input("insert first number    "))
+        B = int(input("insert second number    "))
+        max = A if( A > B ) else B
+        print(max)
+        break
+    except ValueError:
+        print(" You Must Enter 2 Numbers ")
+    
+
+ 
+
+"""Q2"""
+s = int(input("insert number"))
+for a in range(1,11):
+    print(a*s)
+
+
+
+
+"""Q3"""
+for x in range(0,5,1):
+    for y in range(x):
+        print("*",end="")
+    print("")   
+for x in range(5,0,-1):
+    for y in range(x):
+        print("*",end="")
+    print("")
+    
+
+
+
+
+"""Q4"""
+
+"""
+Solution
+x
+y
+z
+b
+"""
+
+
+"""Q5"""
+
+for x in range (12,25,3):
+    print (x)
+   
+"""
+soution
+12
+15
+18
+21
+24
+"""
+
+
+
+
+"""Q6"""
+i=1
+while i<6:
+    print(i)
+    if i==3:
+        break
+    i +=1
+    
+"""
+solution
+1
+2
+3
+"""
+
+
+
+
+"""Q7"""
+t = int(input("insert number   "))
+summ = 0
+for a in range(1,t+1):
+    summ += a
+print(summ)
+
+
+
+"""Q8"""
+w = int(input("insert number   "))
+if (w % 2 == 1):
+    print("odd")
+if (w % 2 == 0):
+    print("even")
+
+
+
+
+"""Q9"""
+
+
+
+
+
+
+
+
+"""Q10"""
+while True:
+    try:
+        MyNamber = int(input(" insert  number "))
+        print(MyNamber)
+        break
+    except ValueError:
+        print(" You Must Enter Numbers ")
+
+
+
+
+
+"""Q11"""
+try:
+    a = 3
+    if a < 4 :
+        b = a/(a-3)
+    print("Value of b=",b)
+except(ZeroDivisionError,NameError):
+    print("\nError Occurred and Handled")
